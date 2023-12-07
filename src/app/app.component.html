@@ -14,8 +14,8 @@
       <label><b class="text-dark">Name</b></label>
       <input type="text"  class="form-control" placeholder="Enter your Name" id="name" formControlName="name">
       <span *ngIf="name && name.invalid &&  (name.dirty || name.touched)" class="text-danger">
-        <span *ngIf="name.errors?.['required']">Please Enter your name</span>
-        <span *ngIf="name.errors?.['pattern']">name is invalid</span>
+        <span *ngIf="name.errors?.['required']">Please Enter your Name</span>
+        <span *ngIf="name.errors?.['pattern']">Name is Invalid</span>
       </span>
     </div>
   
